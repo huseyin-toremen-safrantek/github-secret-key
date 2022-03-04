@@ -3,3 +3,6 @@
 ################################################################################
 
 /src/ConsoleApp/ConsoleApp/obj
+/.vs
+/src/ConsoleApp/.vs/ConsoleApp/v17
+/src/ConsoleApp/ConsoleApp/bin/Debug/net6.0
