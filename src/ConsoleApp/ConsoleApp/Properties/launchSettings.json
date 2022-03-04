@@ -1,0 +1,18 @@
+﻿{
+  "profiles": {
+    "Local": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "RUNTIME_ENVIRONMENT": "Local"
+      }
+    },
+    "Development": {
+      "commandName": "Project",
+      "commandLineArgs": "AppSettings:FirstSetting=\"Command Line Value\"",
+      "environmentVariables": {
+        "RUNTIME_ENVIRONMENT": "Development",
+        "AppSettings__FirstSetting": "Environment Variable Value"
+      }
+    }
+  }
+}
